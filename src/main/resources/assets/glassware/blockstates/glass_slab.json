@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "type=bottom": {
+            "model": "glassware:block/glass_slab"
+        },
+        "type=top": {
+            "model": "glassware:block/glass_slab_top"
+        },
+        "type=double": {
+            "model": "minecraft:block/glass"
+        }
+    }
+}

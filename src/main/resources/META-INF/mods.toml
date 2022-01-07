@@ -1,0 +1,11 @@
+modLoader="kotori_scala"
+loaderVersion="[2.13.3,)"
+license="GPL v3"
+[[mods]]
+modId="glassware"
+version="${file.jarVersion}"
+displayName="Glassware"
+#logoFile="logo.png"
+authors="Tapio"
+credits="Inspired by MrCrayfish's GlassCutter, whose resource files were used here as well"
+description=""

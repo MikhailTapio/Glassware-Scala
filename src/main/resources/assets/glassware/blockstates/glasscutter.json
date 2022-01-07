@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=north": {
+            "model": "glassware:block/glassware"
+        },
+        "facing=south": {
+            "model": "glassware:block/glassware",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "glassware:block/glassware",
+            "y": 270
+        },
+        "facing=east": {
+            "model": "glassware:block/glassware",
+            "y": 90
+        }
+    }
+}
