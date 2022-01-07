@@ -16,6 +16,5 @@ object RegistryHandler {
     BlockInit.register()
     Blocks.register(eventBus)
     Items.register(eventBus)
-
   }
 }

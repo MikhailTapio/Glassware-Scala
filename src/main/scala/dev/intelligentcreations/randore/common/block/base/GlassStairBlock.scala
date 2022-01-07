@@ -16,32 +16,21 @@ import java.util.Collections
 class GlassStairBlock extends StairBlock(() => new Block(Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 2f).noOcclusion.isRedstoneConductor((_: BlockState, _: BlockGetter, _: BlockPos) => false)).defaultBlockState,
   Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 2f).noOcclusion.isRedstoneConductor ((_: BlockState, _: BlockGetter, _: BlockPos) => false)){
 
-  override def getDrops(state: BlockState, builder: LootContext.Builder): util.List[ItemStack] = {
-    Collections.singletonList(new ItemStack(this, 1))
-  }
+  override def getDrops(state: BlockState, builder: LootContext.Builder):
+  util.List[ItemStack] = Collections.singletonList(new ItemStack(this, 1))
 
   override def getVisualShape(state:BlockState, getter: BlockGetter, pos: BlockPos, ctx: CollisionContext):
-  VoxelShape = {
-    Shapes.empty
-  }
+  VoxelShape = Shapes.empty
 
   override def getShadeBrightness(state: BlockState, getter: BlockGetter, pos: BlockPos):
-  Float = {
-    1.0F
-  }
+  Float = 1.0F
 
   override def propagatesSkylightDown(state: BlockState, getter: BlockGetter, pos: BlockPos):
-  Boolean = {
-    true
-  }
+  Boolean = true
 
   override def skipRendering(state1: BlockState, state2: BlockState, direction: Direction):
-  Boolean = {
-    if (state2.is(this)) true
-    else super.skipRendering(state1, state2, direction)
-  }
+  Boolean = state2.is(this)
 
-  override def useShapeForLightOcclusion(blockState: BlockState):Boolean = {
-    true
-  }
+  override def useShapeForLightOcclusion(blockState: BlockState):
+  Boolean = true
 }
