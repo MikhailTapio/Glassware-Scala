@@ -1,4 +1,4 @@
-package dev.intelligentcreations.randore.common.block.base
+package dev.intelligentcreations.glassware.common.block.base
 
 import net.minecraft.core.{BlockPos, Direction}
 import net.minecraft.world.item.ItemStack

@@ -1,6 +1,6 @@
-package dev.intelligentcreations.randore.common.creativeTab
+package dev.intelligentcreations.glassware.common.creativeTab
 
-import dev.intelligentcreations.randore.common.block.BlockInit
+import dev.intelligentcreations.glassware.common.block.BlockInit
 import net.minecraft.world.item.{CreativeModeTab, ItemStack}
 
 object GroupInit {

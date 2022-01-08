@@ -1,6 +1,6 @@
-package dev.intelligentcreations.randore.common
+package dev.intelligentcreations.glassware.common
 
-import dev.intelligentcreations.randore.common.util.RegistryHandler
+import dev.intelligentcreations.glassware.common.util.RegistryHandler
 import net.minecraftforge.common.MinecraftForge
 import net.minecraftforge.fml.common.Mod
 

@@ -1,6 +1,6 @@
-package dev.intelligentcreations.randore.client.render
+package dev.intelligentcreations.glassware.client.render
 
-import dev.intelligentcreations.randore.common.block.BlockInit
+import dev.intelligentcreations.glassware.common.block.BlockInit
 import net.minecraft.client.renderer.{ItemBlockRenderTypes, RenderType}
 import net.minecraftforge.api.distmarker.Dist
 import net.minecraftforge.eventbus.api.SubscribeEvent

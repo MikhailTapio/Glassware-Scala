@@ -1,8 +1,8 @@
-package dev.intelligentcreations.randore.common.block
+package dev.intelligentcreations.glassware.common.block
 
-import dev.intelligentcreations.randore.common.block.base.{GlassSlabBlock, GlassStairBlock, StainedGlassSlabBlock, StainedGlassStairBlock}
-import dev.intelligentcreations.randore.common.creativeTab.GroupInit
-import dev.intelligentcreations.randore.common.util.RegistryHandler
+import dev.intelligentcreations.glassware.common.block.base.{GlassSlabBlock, GlassStairBlock, StainedGlassSlabBlock, StainedGlassStairBlock}
+import dev.intelligentcreations.glassware.common.creativeTab.GroupInit
+import dev.intelligentcreations.glassware.common.util.RegistryHandler
 import net.minecraft.world.item.Item.Properties
 import net.minecraft.world.item.{BlockItem, DyeColor}
 import net.minecraft.world.level.block.Block

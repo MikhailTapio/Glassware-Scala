@@ -1,7 +1,7 @@
-package dev.intelligentcreations.randore.common.util
+package dev.intelligentcreations.glassware.common.util
 
-import dev.intelligentcreations.randore.common.Glassware
-import dev.intelligentcreations.randore.common.block.BlockInit
+import dev.intelligentcreations.glassware.common.Glassware
+import dev.intelligentcreations.glassware.common.block.BlockInit
 import net.minecraft.world.item.Item
 import net.minecraft.world.level.block.Block
 import net.minecraftforge.eventbus.api.IEventBus
